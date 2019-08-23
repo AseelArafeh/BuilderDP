@@ -12,20 +12,20 @@ public class PreviewForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
+        firstNameTextField = new javax.swing.JTextField();
+        secondNameTextField = new javax.swing.JTextField();
+        emailTextField = new javax.swing.JTextField();
+        phoneNumberTextField = new javax.swing.JTextField();
+        websiteTextField = new javax.swing.JTextField();
         biographyPanel = new javax.swing.JPanel();
-        licenseCountryLabel1 = new javax.swing.JLabel();
-        licenseNumberLabel1 = new javax.swing.JLabel();
-        genderLabel1 = new javax.swing.JLabel();
-        yearsinPracticeLabel1 = new javax.swing.JLabel();
-        licenseCountry1 = new javax.swing.JTextField();
-        gender1 = new javax.swing.JTextField();
-        licenseNumber1 = new javax.swing.JTextField();
-        yearsinPractice1 = new javax.swing.JTextField();
+        licenseCountryLabel = new javax.swing.JLabel();
+        licenseNumberLabel = new javax.swing.JLabel();
+        genderLabel = new javax.swing.JLabel();
+        yearsinPracticeLabel = new javax.swing.JLabel();
+        licenseCountry = new javax.swing.JTextField();
+        gender = new javax.swing.JTextField();
+        licenseNumber = new javax.swing.JTextField();
+        yearsinPractice = new javax.swing.JTextField();
         educationPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         educationTextArea = new javax.swing.JTextArea();
@@ -36,48 +36,48 @@ public class PreviewForm extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setEnabled(false);
 
-        jTextField1.setEditable(false);
-        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("<First Name>");
+        firstNameTextField.setEditable(false);
+        firstNameTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        firstNameTextField.setText("<First Name>");
 
-        jTextField2.setEditable(false);
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.setText("<Second Name>");
+        secondNameTextField.setEditable(false);
+        secondNameTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        secondNameTextField.setText("<Second Name>");
 
-        jTextField3.setEditable(false);
-        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField3.setText("<Email>");
+        emailTextField.setEditable(false);
+        emailTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        emailTextField.setText("<Email>");
 
-        jTextField4.setEditable(false);
-        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField4.setText("<Phone Number>");
+        phoneNumberTextField.setEditable(false);
+        phoneNumberTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        phoneNumberTextField.setText("<Phone Number>");
 
-        jTextField5.setEditable(false);
-        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField5.setText("<Website>");
+        websiteTextField.setEditable(false);
+        websiteTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        websiteTextField.setText("<Website>");
 
         biographyPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Biography"));
 
-        licenseCountryLabel1.setText("License Country");
+        licenseCountryLabel.setText("License Country");
 
-        licenseNumberLabel1.setText("License Number");
+        licenseNumberLabel.setText("License Number");
 
-        genderLabel1.setText("Gender");
+        genderLabel.setText("Gender");
 
-        yearsinPracticeLabel1.setText("Years in Practice");
+        yearsinPracticeLabel.setText("Years in Practice");
 
-        licenseCountry1.setEditable(false);
-        licenseCountry1.addActionListener(new java.awt.event.ActionListener() {
+        licenseCountry.setEditable(false);
+        licenseCountry.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                licenseCountry1ActionPerformed(evt);
+                licenseCountryActionPerformed(evt);
             }
         });
 
-        gender1.setEditable(false);
+        gender.setEditable(false);
 
-        licenseNumber1.setEditable(false);
+        licenseNumber.setEditable(false);
 
-        yearsinPractice1.setEditable(false);
+        yearsinPractice.setEditable(false);
 
         javax.swing.GroupLayout biographyPanelLayout = new javax.swing.GroupLayout(biographyPanel);
         biographyPanel.setLayout(biographyPanelLayout);
@@ -87,21 +87,21 @@ public class PreviewForm extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(biographyPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(biographyPanelLayout.createSequentialGroup()
-                        .addComponent(licenseCountryLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(licenseCountryLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(licenseCountry1, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(licenseCountry, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(biographyPanelLayout.createSequentialGroup()
-                        .addComponent(yearsinPracticeLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(yearsinPracticeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(yearsinPractice1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(yearsinPractice, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(biographyPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(licenseNumberLabel1)
-                    .addComponent(genderLabel1))
+                    .addComponent(licenseNumberLabel)
+                    .addComponent(genderLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(biographyPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(gender1, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(licenseNumber1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(gender, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(licenseNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24))
         );
         biographyPanelLayout.setVerticalGroup(
@@ -109,16 +109,16 @@ public class PreviewForm extends javax.swing.JFrame {
             .addGroup(biographyPanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(biographyPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(licenseCountryLabel1)
-                    .addComponent(licenseCountry1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(licenseNumber1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(licenseNumberLabel1))
+                    .addComponent(licenseCountryLabel)
+                    .addComponent(licenseCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(licenseNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(licenseNumberLabel))
                 .addGap(13, 13, 13)
                 .addGroup(biographyPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(genderLabel1)
-                    .addComponent(gender1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(yearsinPracticeLabel1)
-                    .addComponent(yearsinPractice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(genderLabel)
+                    .addComponent(gender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(yearsinPracticeLabel)
+                    .addComponent(yearsinPractice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(49, 49, 49))
         );
 
@@ -180,15 +180,15 @@ public class PreviewForm extends javax.swing.JFrame {
                         .addGap(75, 75, 75)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(emailTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(phoneNumberTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(websiteTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(firstNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(secondNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(32, 32, 32)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -202,13 +202,13 @@ public class PreviewForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(firstNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(secondNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(emailTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(phoneNumberTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(websiteTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(biographyPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
@@ -221,13 +221,11 @@ public class PreviewForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void licenseCountry1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_licenseCountry1ActionPerformed
+    private void licenseCountryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_licenseCountryActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_licenseCountry1ActionPerformed
+    }//GEN-LAST:event_licenseCountryActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -266,20 +264,20 @@ public class PreviewForm extends javax.swing.JFrame {
     private javax.swing.JPanel biographyPanel;
     private javax.swing.JPanel educationPanel;
     private javax.swing.JTextArea educationTextArea;
-    private javax.swing.JTextField gender1;
-    private javax.swing.JLabel genderLabel1;
+    private javax.swing.JTextField emailTextField;
+    private javax.swing.JTextField firstNameTextField;
+    private javax.swing.JTextField gender;
+    private javax.swing.JLabel genderLabel;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField licenseCountry1;
-    private javax.swing.JLabel licenseCountryLabel1;
-    private javax.swing.JTextField licenseNumber1;
-    private javax.swing.JLabel licenseNumberLabel1;
-    private javax.swing.JTextField yearsinPractice1;
-    private javax.swing.JLabel yearsinPracticeLabel1;
+    private javax.swing.JTextField licenseCountry;
+    private javax.swing.JLabel licenseCountryLabel;
+    private javax.swing.JTextField licenseNumber;
+    private javax.swing.JLabel licenseNumberLabel;
+    private javax.swing.JTextField phoneNumberTextField;
+    private javax.swing.JTextField secondNameTextField;
+    private javax.swing.JTextField websiteTextField;
+    private javax.swing.JTextField yearsinPractice;
+    private javax.swing.JLabel yearsinPracticeLabel;
     // End of variables declaration//GEN-END:variables
 }
