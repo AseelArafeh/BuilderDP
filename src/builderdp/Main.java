@@ -1,21 +1,32 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package builderdp;
 
-/**
- *
- * @author Aseel
- */
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        PersonalInformation personalInfo = new PersonalInformation("Aseel", "Arafeh", "arafehaseel@gmail.com", "aseel.com", "0598000000"); // required
+        Biography biographyInfo = new Biography("licenseCountryName", "licenseNumber", 2019, "gender"); // required
+        Education educationInfo = new Education("degree", "major", "school", 2019); // required
+        Address addressInfo= new Address("country", "state", "city", "street", 10); // required
+        Specialization specializationInfo = new Specialization("areaOfSpecialization", 2019); // optional
+        
+        // For Building "General Dentist Type"
+        Dentist generalDentist = new Dentist.DentistBuilder(personalInfo, biographyInfo, educationInfo, addressInfo)
+                                            .build();
+ 
+        System.out.println(generalDentist);
+        
+        
+        // For Building "Specialist Dentist Type"
+        Dentist specialistDentist = new Dentist.DentistBuilder(personalInfo, biographyInfo, educationInfo, addressInfo)
+                                               .specializationBuilder(specializationInfo)
+                                               .build();
+        
+        System.out.println(specialistDentist);
+        
+
     }
     
 }
