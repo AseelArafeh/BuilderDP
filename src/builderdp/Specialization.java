@@ -1,14 +1,37 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package builderdp;
 
-/**
- *
- * @author Aseel
- */
+
 public class Specialization {
+    private String areaOfSpecialization;
+    private int year;
+
+    public Specialization(String areaOfSpecialization, int year) {
+        this.areaOfSpecialization = areaOfSpecialization;
+        this.year = year;
+    }
+
+    public String getAreaOfSpecialization() {
+        return areaOfSpecialization;
+    }
+
+    public void setAreaOfSpecialization(String areaOfSpecialization) {
+        this.areaOfSpecialization = areaOfSpecialization;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    @Override
+    public String toString() {
+        return "Specialization{" + "areaOfSpecialization=" + areaOfSpecialization + ", year=" + year + '}';
+    }
+
+    
     
 }
