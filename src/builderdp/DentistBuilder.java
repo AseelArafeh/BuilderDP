@@ -8,11 +8,10 @@ public class DentistBuilder {
         
         PersonalInformation personalInfo;
         Biography biographyInfo;   
-        ArrayList<Education> educationInfo = new ArrayList<>();
+        ArrayList<Education> educationInfo = new ArrayList<>(); 
         ArrayList<Address> addressInfo = new ArrayList<>(); 
         ArrayList<Specialization> specializationInfo = new ArrayList<>(); 
-        
-        
+ 
         public DentistBuilder() {
             /*this.personalInfo = personalInfo;
             this.biographyInfo = biographyInfo;

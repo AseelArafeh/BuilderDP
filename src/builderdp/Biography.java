@@ -50,7 +50,8 @@ public class Biography {
 
     @Override
     public String toString() {
-        return "Biography{" + "licenseCountryName=" + licenseCountryName + ", licenseNumber=" + licenseNumber + ", yearsInPractice=" + yearsInPractice + ", gender=" + gender + '}';
+                return  "\tlicenseCountryName: " + licenseCountryName + "\n\tlicenseNumber: " + licenseNumber + "\n\tyearsInPractice: " + yearsInPractice + "\n\tgender: " + gender + "\n";
+
     }
     
 }

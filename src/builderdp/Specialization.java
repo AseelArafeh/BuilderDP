@@ -29,7 +29,8 @@ public class Specialization {
 
     @Override
     public String toString() {
-        return "Specialization{" + "areaOfSpecialization=" + areaOfSpecialization + ", year=" + year + '}';
+        return  "\n\tareaOfSpecialization: " + areaOfSpecialization + "\n\tyear: " + year ;
+
     }
 
     
