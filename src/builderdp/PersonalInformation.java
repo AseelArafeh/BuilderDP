@@ -60,7 +60,7 @@ public class PersonalInformation {
 
     @Override
     public String toString() {
-        return "PersonalInformation{" + "firstName=" + firstName + ", lastName=" + lastName + ", emailAddress=" + emailAddress + ", website=" + website + ", phoneNumber=" + phoneNumber + '}';
+        return  "\tfirstName: " + firstName + "\n\tlastName: " + lastName + "\n\temailAddress: " + emailAddress + "\n\twebsite: " + website + "\n\tphoneNumber: " + phoneNumber + "\n";
     }
 
     

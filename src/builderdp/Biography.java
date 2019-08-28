@@ -6,10 +6,10 @@ public class Biography {
     
     private String licenseCountryName;
     private String licenseNumber;
-    private int yearsInPractice;
+    private String yearsInPractice;
     private String gender;
 
-    public Biography(String licenseCountryName, String licenseNumber, int yearsInPractice, String gender) {
+    public Biography(String licenseCountryName, String licenseNumber, String yearsInPractice, String gender) {
         this.licenseCountryName = licenseCountryName;
         this.licenseNumber = licenseNumber;
         this.yearsInPractice = yearsInPractice;
@@ -32,11 +32,11 @@ public class Biography {
         this.licenseNumber = licenseNumber;
     }
 
-    public int getYearsInPractice() {
+    public String getYearsInPractice() {
         return yearsInPractice;
     }
 
-    public void setYearsInPractice(int yearsInPractice) {
+    public void setYearsInPractice(String yearsInPractice) {
         this.yearsInPractice = yearsInPractice;
     }
 

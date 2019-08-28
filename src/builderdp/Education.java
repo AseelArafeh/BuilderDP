@@ -7,9 +7,9 @@ public class Education {
     private String degree;
     private String major;
     private String school;
-    private int year;
+    private String year;
 
-    public Education(String degree, String major, String school, int year) {
+    public Education(String degree, String major, String school, String year) {
         this.degree = degree;
         this.major = major;
         this.school = school;
@@ -40,17 +40,18 @@ public class Education {
         this.school = school;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
     @Override
     public String toString() {
-        return "Education{" + "degree=" + degree + ", major=" + major + ", school=" + school + ", year=" + year + '}';
+        return  "\n\tdegree: " + degree + "\n\tmajor: " + major + "\n\tschool: " + school + "\n\tyear: " + year ;
+
     }
     
     

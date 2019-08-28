@@ -4,9 +4,9 @@ package builderdp;
 
 public class Specialization {
     private String areaOfSpecialization;
-    private int year;
+    private String year;
 
-    public Specialization(String areaOfSpecialization, int year) {
+    public Specialization(String areaOfSpecialization, String year) {
         this.areaOfSpecialization = areaOfSpecialization;
         this.year = year;
     }
@@ -19,11 +19,11 @@ public class Specialization {
         this.areaOfSpecialization = areaOfSpecialization;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 

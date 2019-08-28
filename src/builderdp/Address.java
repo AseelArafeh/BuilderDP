@@ -8,9 +8,9 @@ public class Address {
     private String state;
     private String city;
     private String street;
-    private int postalCode;
+    private String postalCode;
 
-    public Address(String country, String state, String city, String street, int postalCode) {
+    public Address(String country, String state, String city, String street, String postalCode) {
         this.country = country;
         this.state = state;
         this.city = city;
@@ -50,17 +50,18 @@ public class Address {
         this.street = street;
     }
 
-    public int getPostalCode() {
+    public String getPostalCode() {
         return postalCode;
     }
 
-    public void setPostalCode(int postalCode) {
+    public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
 
     @Override
     public String toString() {
-        return "Address{" + "country=" + country + ", state=" + state + ", city=" + city + ", street=" + street + ", postalCode=" + postalCode + '}';
+        return  "\n\tcountry: " + country + "\n\tstate: " + state + "\n\tcity: " + city + "\n\tstreet: " + street + "\n\tpostalCode: " + postalCode ;
+
     }
     
     
